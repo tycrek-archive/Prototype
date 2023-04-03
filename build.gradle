@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id 'io.freefair.lombok' version '8.0.1'
+}
+
+group = 'dev.jmoore'
+version = '0.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.github.geysermc:mcprotocollib:1.19.2-1'
+
+    def adventureVersion = '4.13.0'
+    implementation 'net.kyori:adventure-api:' + adventureVersion
+    implementation 'net.kyori:adventure-text-serializer-gson:' + adventureVersion
+    implementation 'net.kyori:adventure-text-serializer-legacy:' + adventureVersion
+}
+
+test {
+    useJUnitPlatform()
+}
