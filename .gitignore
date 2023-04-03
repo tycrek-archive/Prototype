@@ -57,3 +57,5 @@ gradle-app.setting
 # End of https://www.toptal.com/developers/gitignore/api/gradle,java
 
 .idea/
+
+msal_serialized_cache.json
