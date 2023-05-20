@@ -10,7 +10,7 @@
 
 This project is extremely incomplete and not exactly functional. I just ran out of time to focus on it so I'm dumping the code here.
 
-A lot of this code, especially in the `net` package, is original source code from my old [ttRMS project](https://github.com/ttRMS). The main ttRMS codebase **will remain closed source** but I have pubished a lot of helper libraries on our org.
+A lot of this code, especially in the `net` package, is original source code from my old [ttRMS project](https://github.com/ttRMS). The main ttRMS codebase **will remain closed source** but I have published a lot of helper libraries on our org.
 
 I haven't done much protocol work for 1.19 so it's quite unfamiliar to me. I'll try to help where I can, but I can't make promises.
 
