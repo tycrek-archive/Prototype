@@ -20,6 +20,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.github.tycrek:MCProtocolLib:1.19.2-3'
     implementation 'com.github.tycrek:MCAuthLib:3.0'
+    implementation 'io.ttrms:skeleton:0.4'
 
     def adventureVersion = '4.13.0'
     implementation 'net.kyori:adventure-api:' + adventureVersion
